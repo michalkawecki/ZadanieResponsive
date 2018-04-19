@@ -1,0 +1,36 @@
+@media all and (max-width: 1170px) {
+    #main-header {
+    height: 70vh;
+    background-image: url(../img/man-2.jpg);
+    }
+    
+    .header-inner {
+    top: 5%;
+    right: 0;
+    }
+    
+    .header-inner h2 {
+    font-size: 20px;
+    }
+    
+    .bigger {
+    font-size: 25px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    #main-header {
+    height: 50vh;
+    background-image: url(../img/man-1.jpg);
+    }
+    
+    #main-header h2 {
+    color: black;
+    }
+    
+    .header-inner {
+    top: 105%;
+    text-align: center;
+    left: 0;
+    }
+}

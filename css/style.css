@@ -1,0 +1,33 @@
+.bigger {
+    font-size: 40px;
+}
+
+body {
+    margin: 0px;
+}
+
+#main-header {
+    height: 100vh;
+    background-image: url(../img/man-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-inner {
+    position: absolute;
+    top: 40%;
+}
+
+.header-inner h2 {
+    font-size: 25px;
+}
+
+#main-header h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Verdana", sans-serif;
+    margin: 0px;
+    padding: 10px 40px;
+}
